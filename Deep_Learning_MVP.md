@@ -14,8 +14,10 @@ The final stage of the project is currently being implemented. OpenCV is used to
 
 
 ![](Images/Eyes_open.png)
+
 Image showing webcam when eyes are open, counter at zero.
 
 
 ![](Images/Eyes_closed.png)
+
 Image showing webcam when eyes are closed, counter increasing.
