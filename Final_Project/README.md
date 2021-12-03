@@ -1,4 +1,6 @@
-# Abstract:
+# Drowsiness Detection
+
+**Absract**
 
 Drowsy driving accounts for nearly 10% of all motor vehicle accidents per year in the United States. This equates to roughly 100,000 accidents, 71,000 injuries, and 1,550 deaths per year. The goal of this project is to implement a drowsiness detection program using convolutional neural networks (CNN) and computer vision. A CNN was trained using the MRL eye dataset to classify an eye as open or closed. Once an adequately accurate model was constructed. OpenCV and Haar cascade classifiers were used to detect the face and eyes of a person in real time from a web camera. The area of the eyes were isolated and converted into the correct format to be sent to the CNN model. The CNN model determined if the right and left eye were open or closed independently of each other. If both eyes are closed a counter increases. If both eyes are open or one is open the counter decreases or remains zero. If the counter reaches 15 a police siren is played to awaken the drowsy driver.
 
